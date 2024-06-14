@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Lancelot&family=Moon+Dance&family=Quattrocento:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container{
+    width: 100%;
+    padding: 20px;
+}
+.main-container .air-nav{
+    width: 100%;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid orangered; */
+}
+.main-container .air-nav .air-logo{
+    padding-top: 0px;
+}
+.main-container .air-nav .air-logo img{
+    width: 100px;
+    padding-top: 0px;
+}
+.main-container .air-nav .air-nav2{
+    width: 60%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    /* border: 1px solid orangered; */
+}
+.main-container .air-nav .air-nav2 .air-exp1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.main-container .air-nav .air-nav2 .air-exp1 p{
+    margin: 0px 20px;
+    font-size: 1rem;
+    color: gray;
+    cursor: pointer;
+}
+.main-container .air-nav .air-nav2 .air-exp1 p:hover{
+    color: black;
+}
+.main-container .air-nav .air-nav2 .air-exp2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 0px 1px 5px 1px lightgray;
+    border: 1px solid lightgray;
+}
+.main-container .air-nav .air-nav2 .air-exp2 .search1{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid lightblue;
+}
+.main-container .air-nav .air-nav2 .air-exp2 .search1 p:first-child{
+    font-size: 12px;
+    font-weight: 700;
+}
+.main-container .air-nav .air-nav2 .air-exp2 .search1 p:first-child{
+    font-size: 12px;
+    font-weight: 700;
+}
+.main-container .air-nav .air-nav2 .air-exp2 .search2{
+    width: 15%;
+    padding: 12px;
+    border: 1px solid darkcyan;
+}
+.main-container .air-nav .air-nav2 .air-exp2 .search2 p:first-child{
+    font-size: 12px;
+    font-weight: 700;
+}
+.main-container .air-nav .air-nav2 .air-exp2 .search2 p:last-child{
+    font-size: 14px;
+    font-weight: 100;
+    color: gray;
+}
+.main-container .air-nav .air-nav2 .air-exp2 .search3{
+    width: 15%;
+    padding: 12px;
+    border: 1px solid fuchsia;
+}
+.main-container .air-nav .air-nav2 .air-exp2 .search3 p:first-child{
+    font-size: 12px;
+    font-weight: 700;
+}
+.main-container .air-nav .air-nav2 .air-exp2 .search3 p:last-child{
+    font-size: 14px;
+    font-weight: 100;
+    color: gray;
+}
+.main-container .air-nav .air-nav2 .air-exp2 .search45{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid orangered;
+}
+.main-container .air-nav .air-nav2 .air-exp2 .search4{
+    width: 70%;
+    padding: 11px;
+    border: 1px solid darkblue;
+}
+.main-container .air-nav .air-nav2 .air-exp2 .search4 p:first-child{
+    font-size: 12px;
+    font-weight: 700;
+}
+.main-container .air-nav .air-nav2 .air-exp2 .search4 p:last-child{
+    font-size: 14px;
+    font-weight: 100;
+    color: gray;
+}
+.main-container .air-nav .air-nav2 .air-exp2 .search5{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid darkcyan;
+}
+/* .main-container .air-nav .air-nav2 .air-exp2 .search1, .search2, .search3, .search4 {
+    border: 1px solid lightcoral;
+} */
